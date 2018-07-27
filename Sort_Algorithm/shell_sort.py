@@ -13,6 +13,6 @@ def shell_sort(list):
     return list
 
 
-# test
+# test 用10w整形数字实测，希尔经常超越快排。。。
 list = [10, 23, 1, 53, 654, 54, 16, 646, 65, 3155, 546, 31]
 print(shell_sort(list))
